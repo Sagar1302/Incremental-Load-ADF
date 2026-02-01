@@ -1,0 +1,9 @@
+{
+	"name": "incrementalload-datafactory",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3b994dc1-6cfb-4e09-9ba5-de07622c9c25",
+		"tenantId": "c972f919-948b-4db6-b659-9377d91e966e"
+	}
+}

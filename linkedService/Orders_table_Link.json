@@ -1,0 +1,17 @@
+{
+	"name": "Orders_table_Link",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "sagarincrementalload.database.windows.net",
+			"database": "incremenatlload",
+			"encrypt": "optional",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "sagar",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEE4RDM3RTE1LTZEMDctNEU0Ny04MUVDLThCREU4N0UxN0MxRV82NTFmNmNmNi0xNTVmLTRkYWUtYjQ1NS03NTAyMWVjMDZkYjMiDQp9"
+		}
+	}
+}

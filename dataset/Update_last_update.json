@@ -1,0 +1,20 @@
+{
+	"name": "Update_last_update",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "storageincrementalstorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "lastaccess.json",
+				"fileSystem": "source"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
